@@ -1,3 +1,3 @@
-# {{PROJECT_NAME}}
+# parts-pinger
 
-{{PROJECT_DESCRIPTION}}
+ping online stores checking for computer parts
