@@ -1,1 +1,1 @@
-from parts_pinger.scrapers import canadacomputers, megacomputer, memoryexpress
+from parts_pinger.scrapers import canadacomputers, megacomputer, memoryexpress, pccanada

@@ -12,3 +12,8 @@ name="MegaComputer: AMD Ryzen 5 3600"
 url="https://www.memoryexpress.com/Products/MX77406"
 scraper="memoryexpress"
 name="MemoryExpress: AMD Ryzen 5 3600"
+
+[[Parts]]
+url="https://www.pc-canada.com/item/100-100000031BOX.html"
+scraper="pccanada"
+name="PC-Canada: AMD Ryzen 5 3600"
