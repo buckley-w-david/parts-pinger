@@ -12,6 +12,8 @@ def available(url: str) -> bool:
         soup = BeautifulSoup(request.read(), features="html.parser")
 
     online = 'Out of Stock' not in soup.find(class_='c-capr-inventory-selector__details-online').text
+    online = online and 'Backorder' not in soup.find(class_='c-capr-inventory-selector__details-online').text
     london = 'Out of Stock' not in soup.find('li', {"data-region-name": 'Ontario'}).select(".c-capr-inventory-region li:nth-child(2) span:nth-child(2)")[0].text
+    london = london and 'Backorder' not in soup.find('li', {"data-region-name": 'Ontario'}).select(".c-capr-inventory-region li:nth-child(2) span:nth-child(2)")[0].text
 
     return online or london

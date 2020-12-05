@@ -1,19 +1,29 @@
 [[Parts]]
-url="https://www.canadacomputers.com/product_info.php?cPath=4_64_1969&item_id=138215"
+url="https://www.canadacomputers.com/product_info.php?cPath=4_64_1969&item_id=183432"
 scraper="canadacomputers"
-name="CanadaComputers: AMD Ryzen 5 3600"
+name="CanadaComputers: AMD Ryzen 5 5600X"
 
 [[Parts]]
-url="http://megacomputer.ca/index.php/main/Product/CPUA0173"
-scraper="megacomputer"
-name="MegaComputer: AMD Ryzen 5 3600"
-
-[[Parts]]
-url="https://www.memoryexpress.com/Products/MX77406"
+url="https://www.memoryexpress.com/Products/MX00114455"
 scraper="memoryexpress"
-name="MemoryExpress: AMD Ryzen 5 3600"
+name="MemoryExpress: AMD Ryzen 5 5600X"
 
 [[Parts]]
-url="https://www.pc-canada.com/item/100-100000031BOX.html"
+url="https://www.pc-canada.com/item/100%2D100000065BOX.html"
 scraper="pccanada"
-name="PC-Canada: AMD Ryzen 5 3600"
+name="PC-Canada: AMD Ryzen 5 5600X"
+
+[[Parts]]
+url="http://megacomputer.ca/index.php/main/Product/CPUA0183"
+scraper="megacomputer"
+name="MegaComputer: AMD Ryzen 5 5600X"
+
+[[Parts]]
+url="https://www.newegg.ca/amd-ryzen-5-5600x/p/N82E16819113666?Item=N82E16819113666&Tpk=19-113-666"
+scraper="newegg"
+name="Newegg: AMD Ryzen 5 5600X"
+
+[[Parts]]
+url="https://www.bhphotovideo.com/c/product/1598377-REG/amd_100_100000065box_ryzen_5_5600x_3_7.html"
+scraper="bhphotovideo"
+name="BHPhotoVideo: AMD Ryzen 5 5600X"

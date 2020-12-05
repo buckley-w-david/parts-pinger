@@ -18,9 +18,12 @@ def scrape(config_file: Path = Path('config.toml')):
     config = toml.load(config_file)
     for part in (PartConfig(**part) for part in config['Parts']):
         scraper = getattr(scrapers, part.scraper)
-        if scraper.available(part.url):
-            print(part.name, "is available!")
-        else:
+        try:
+            if scraper.available(part.url):
+                print(part.name, "is available!")
+            else:
+                print(part.name, "is not available :(")
+        except:
             print(part.name, "is not available :(")
 
 if __name__ == '__main__':

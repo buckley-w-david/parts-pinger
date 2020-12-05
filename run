@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+watch --chgexit --interval 20 parts-pinger
+while true; do notify-send "`parts-pinger`"; sleep 10; done
